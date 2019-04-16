@@ -1,0 +1,13 @@
+nav#site-navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 100px;
+  background-color: black;
+}
+
+.main-navigation ul li a {
+  color: #ffffff;
+  padding-right: 30px;
+  padding-top: 100px;
+  text-transform: uppercase;
+}
