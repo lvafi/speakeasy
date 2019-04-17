@@ -19,7 +19,7 @@ span.responsive-menu-box {
   margin-top: 45px;
 }
 
-@media screen and (min-width : 768px) and (max-width : 1024px)  { 
+@media screen and (min-width : 768px) and (max-width : 900px)  { 
   nav#site-navigation {
     display: flex;
     justify-content: space-between;
@@ -30,17 +30,19 @@ span.responsive-menu-box {
     display:none;
   }
   .logo-holder img {
-    width: 80%;
+    width: 60%;
+  }
+  nav#site-navigation {
+    padding: 0px 30px;
   }
   
 }
 
-@media (min-width : 1024px) {
+@media (min-width : 900px) {
   nav#site-navigation {
     display: flex;
     justify-content: space-between;
     padding: 10px 100px;
-    background-color: black;
   }
   .my-primary-menu {
     display:block;
@@ -49,7 +51,7 @@ span.responsive-menu-box {
     display: none;
   }
   .logo-holder img {
-    width: 100%;
+    width: 90%;
   }
   
 }

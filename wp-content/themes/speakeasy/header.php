@@ -29,7 +29,7 @@
 
 		<nav id="site-navigation" class="main-navigation">
 			<div class="logo-holder">
-					<img src="http://localhost:8888/speakeasy/wp-content/uploads/2019/04/logo-Screen-Shot.png"/>
+					<a href="http://localhost:8888/speakeasy/"><img src="http://localhost:8888/speakeasy/wp-content/uploads/2019/04/logo-Screen-Shot.png"/></a>
 			</div>
 			<div class="my-primary-menu">
 					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'speakeasy' ); ?></button> 
