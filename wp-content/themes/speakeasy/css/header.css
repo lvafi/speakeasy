@@ -1,9 +1,9 @@
-nav#site-navigation {
+/* nav#site-navigation {
   padding: 0px 10px;
-  background-color: black;
-}
+  /* background-color: black; */
 
-.main-navigation ul li a {
+
+/* .main-navigation ul li a {
   color: #ffffff;
   padding-right: 30px;
   padding-top: 100px;
@@ -18,6 +18,7 @@ nav#site-navigation {
 span.responsive-menu-box {
   margin-top: 45px;
 }
+
 
 @media screen and (min-width : 768px) and (max-width : 900px)  { 
   nav#site-navigation {
@@ -56,4 +57,4 @@ span.responsive-menu-box {
   
 }
 
-
+  */

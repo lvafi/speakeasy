@@ -1,0 +1,37 @@
+.home-hero-container {
+  background-image:  url(http://localhost:8888/speakeasy/wp-content/uploads/2019/04/homesliderss.png);
+  align-items: center;
+  background-size: cover;
+  width: auto;
+  min-height: 55vw;
+  
+}
+
+.menu-menu-1-container ul li a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+.home-hero img {
+  width: 300px;
+  height: 90px;
+}
+.home-hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 65px 0px 100px; 
+  background: #000;
+}
+.menu-menu-1-container{
+  overflow: hidden;
+  
+}
+
+ul#primary-menu {
+  display: flex;
+  padding-top: 59px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}

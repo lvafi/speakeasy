@@ -18,20 +18,28 @@ get_header();
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 
-		<?php
-		while ( have_posts() ) :
-			the_post();
+		<?php while ( have_posts() ) : the_post(); ?>
+				<section class="home-hero-container">
 
-			get_template_part( 'template-parts/content', 'page' );
+					    <div class="home-hero">
+								<img src='http://localhost:8888/speakeasy/wp-content/uploads/2019/04/speakeasy-logo-whitetext-laptop.png'/>
+            
+								<?php
+												wp_nav_menu( array(
+												'theme_location' => 'menu-1',
+												'menu_id'        => 'primary-menu',
+												) );
+								?>
+							</div>
+								<p>who's hungry?</p>
+							
+						  
+				</section>
+			
+			
 
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
-
-		endwhile; // End of the loop.
-		?>
-
+	  <?php 	endwhile; // End of the loop. ?>
+  
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
