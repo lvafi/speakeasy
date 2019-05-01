@@ -13,6 +13,7 @@ function speakeasy_secondary_scripts() {
   wp_enqueue_style( 'speakeasy-header-style', get_template_directory_uri() . '/css/header.css' );
   wp_enqueue_style( 'speakeasy-home-style', get_template_directory_uri() . '/css/home.css' );
   wp_enqueue_style( 'speakeasy-fonts-style', get_template_directory_uri() . '/css/fonts.css' );
+  wp_enqueue_style( 'speakeasy-footer', get_template_directory_uri() . '/css/footer.css' );
 
   wp_enqueue_script( 'speakeasy-index', get_template_directory_uri() . '/js/index.js' );
 }

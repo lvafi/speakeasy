@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'InaiMathi';
+    src: url('InaiMathi.eot');
+    src: url('InaiMathi.eot?#iefix') format('embedded-opentype'),
+        url('InaiMathi.woff2') format('woff2'),
+        url('InaiMathi.woff') format('woff'),
+        url('InaiMathi.svg#InaiMathi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'InaiMathi';
+    src: url('InaiMathi-Bold.eot');
+    src: url('InaiMathi-Bold.eot?#iefix') format('embedded-opentype'),
+        url('InaiMathi-Bold.woff2') format('woff2'),
+        url('InaiMathi-Bold.woff') format('woff'),
+        url('InaiMathi-Bold.svg#InaiMathi-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+

@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'InaiMathi';
+  src: url('../assets/fonts/InaiMathi.ttf');
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'InaiMathi-Bold';
+  src: url('../assets/fonts/InaiMathi-Bold.ttf');
+  font-style: bold;
+}
